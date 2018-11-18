@@ -1,1 +1,1 @@
-callbackfunction(ok);
+callbackfunction("ok");
