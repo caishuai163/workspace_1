@@ -1,1 +1,6 @@
-aa:w:aaaaaaaaa
+function FindProxyForURL(url, host) {
+   if (shExpMatch(url,"*.gyyx.cn/*")) {
+     return "PROXY 192.168.6.60:8888";
+   }
+   return "DIRECT"; 
+}
